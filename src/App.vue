@@ -10,7 +10,7 @@ export default {
     return {
       value: "Pedazo de cerdas"
     };
-  }
+  };
   
 <h2>Select</h2>
   <select v-model="selected">
