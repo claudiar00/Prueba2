@@ -7,7 +7,7 @@ export default {
   name: "App",
   data() {
     return {
-      value: <p>Nombre: <input type="text" name="nombre" required></p>
+      value: "Hola amigas"
     };
   }
 };
