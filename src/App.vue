@@ -1,7 +1,7 @@
 
 <template>
   <div>Hola {{ value }}</div>
-</template>
+
 
 <script>
 export default {
@@ -10,6 +10,7 @@ export default {
     return {
       value: "Pedazo de cerdas"
     };
+  }
   };
   
 <h2>Select</h2>
@@ -21,5 +22,6 @@ export default {
   </select>
   <span>Selected: {{ selected }}</span>
   </script>
-};
 
+
+</template>
