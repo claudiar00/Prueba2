@@ -1,5 +1,6 @@
 <template>
   <div>Hola {{ value }}</div>
+  <p>Nombre: <input type="text" name="nombre" required></p>
 </template>
 
 <script>
@@ -13,4 +14,4 @@ export default {
 };
 </script>
 
-<p>Nombre: <input type="text" name="nombre" required></p>
+
