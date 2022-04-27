@@ -7,7 +7,7 @@ export default {
   name: "App",
   data() {
     return {
-      value: "miri intentando meter un imput"
+      value: <p>Nombre: <input type="text" name="nombre" required></p>
     };
   }
 };
