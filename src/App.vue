@@ -12,3 +12,5 @@ export default {
   }
 };
 </script>
+
+<p>Nombre: <input type="text" name="nombre" required></p>
