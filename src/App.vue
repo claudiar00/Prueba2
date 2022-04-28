@@ -1,16 +1,14 @@
-
 <template>
   <div>Hola {{ value }}</div>
-
+</template>
 
 <script>
 export default {
   name: "App",
   data() {
     return {
-      value: "Esto es una prueba antes de irnos"
+      value: "Project massive data"
     };
   }
-  };
-  
-</template>
+};
+</script>
