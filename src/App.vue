@@ -1,13 +1,19 @@
 <script>
-import ChildComp from './ChildComp.vue'
-
 export default {
-  components: {
-    ChildComp
+  data() {
+    return {
+      count: 0
+    }
   }
 }
 </script>
 
 <template>
-  <ChildComp />
+  <button @click="count++">Count is: {{ count }}</button>
 </template>
+
+<style scoped>
+button {
+  font-weight: bold;
+}
+</style>
