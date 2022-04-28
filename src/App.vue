@@ -8,8 +8,23 @@ export default {
 }
 </script>
 
+<script>
+export default {
+  data() {
+    return {
+      message: ''
+    }
+  }
+}
+</script>
+
 <template>
   <button @click="count++">Count is: {{ count }}</button>
+</template>
+
+<template>
+  <p>Message is: {{ message }}</p>
+	<input v-model="message" placeholder="edit me" />
 </template>
 
 <style scoped>
@@ -17,3 +32,5 @@ button {
   font-weight: bold;
 }
 </style>
+
+
