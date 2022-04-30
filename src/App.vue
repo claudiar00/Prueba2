@@ -10,11 +10,9 @@ const graphs = ('The statistics of a terrorism attack in the selected country ar
 
 <template>
   <h1>{{ message }}</h1>
-</template>
-<template>
+  
   <h5>{{intro}}</h5>
-</template>
-<template>
+
   <select v-model="selected">
     <option disabled value="">Please select one</option>
     <option>Iraq</option>
@@ -26,7 +24,6 @@ const graphs = ('The statistics of a terrorism attack in the selected country ar
   <span>The country selected is: {{ selected }}</span>
   <br>
   <br>
-</template>
-<template>
+
   <h8>{{graphs}}</h8>
 </template>
