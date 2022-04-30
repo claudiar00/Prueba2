@@ -12,7 +12,7 @@ export default {
 export default {
   data() {
     return {
-      message: ''
+      message: 'hola que tal'
     }
   }
 }
@@ -24,7 +24,7 @@ export default {
 
 <template>
   <p>Message is: {Hola}</p>
-	input v-model="message" placeholder="edit me"
+	<input v-model="message" placeholder="edit me"</input>
 </template>
 
 <style scoped>
