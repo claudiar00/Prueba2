@@ -12,7 +12,7 @@ export default {
 export default {
   data() {
     return {
-      message: 'hola que tal'
+      message: ''
     }
   }
 }
