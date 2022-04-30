@@ -1,3 +1,15 @@
+</script>
+
+<script>
+export default {
+  data() {
+    return {
+      message: ''
+    }
+  }
+}
+</script>
+
 <template>
 	<p>Message is: {Welcome to Global Terrorism Database} </p>
 	<input v-model="message" placeholder="edíteme">
