@@ -24,7 +24,7 @@ export default {
 
 <template>
   <p>Message is: {Hola}</p>
-	<input v-model="message" placeholder="edit me" />
+	input v-model="message" placeholder="edit me"
 </template>
 
 <style scoped>
