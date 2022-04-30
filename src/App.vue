@@ -1,24 +1,35 @@
 <script>
-export default { data() {return {message: ''}}
-import { ref } from 'vue'
+export default {
+  data() {
+    return {
+      count: 0
+    }
+  }
+}
+</script>
 
-const message = ref('Welcome to Global Terrorism Database!')
-const intro = ('Please select a country to check their terrorism statistics:')
-const selected = ref('')
+<script>
+export default {
+  data() {
+    return {
+      message: ''
+    }
+  }
+}
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
-  <h5>{{intro}}</h5>
-  <select v-model="Selected">
-    <option disabled value="">Please select one</option>
-    <option>Iraq</option>
-    <option>India</option>
-    <option>Spain</option>
-  </select>
-  <br>
-  <br>
-  <span>The country selected is: {{ selected }}</span>
+  <button @click="count++">Count is: {{ count }}</button>
 </template>
 
+<template>
+	<p>Message is: {Welcome to Global Terrorism Database} </p>
+	<input v-model="message" placeholder="edíteme">
+	<p>El mensaje es: {{ message }}</p>
+</template>
 
+<style scoped>
+button {
+  font-weight: bold;
+}
+</style>
