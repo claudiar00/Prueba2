@@ -23,7 +23,7 @@ export default {
 </template>
 
 <template>
-  <p>Message is: {{ Hola }}</p>
+  <p>Message is: {Hola}</p>
 	<input v-model="message" placeholder="edit me" />
 </template>
 
